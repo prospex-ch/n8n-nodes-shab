@@ -151,3 +151,5 @@ docs/_build/
 .ndemo/
 demo/verification/audio/
 demo/verification/video-raw/
+demo/verification/*.mp4
+demo/verification/*.srt
