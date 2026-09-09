@@ -1,0 +1,348 @@
+app:
+  url: http://localhost:5678/home/workflows
+  viewport:
+    width: 1920
+    height: 1080
+  scale: 1
+  zoom: 1.1
+  colorScheme: light
+  setup:
+    - run: ./demo/verification/scripts/reset.sh
+    - type: wait
+      duration: 3000
+    - type: type
+      target: { role: textbox, name: "Email" }
+      text: semion.sidorenko@letemps.ch
+      if:
+        visible: "input[type=password]"
+    - type: type
+      target: { role: textbox, name: "Password" }
+      text: DemoPassw0rd!
+      if:
+        visible: "input[type=password]"
+    - type: click
+      target: { role: button, name: "Sign in" }
+      if:
+        visible: "input[type=password]"
+      done:
+        url: "**/home/workflows"
+
+titleCard:
+  title: "n8n-nodes-shab"
+  subtitle: "The Swiss Official Gazette of Commerce (SHAB)"
+  duration: 3500
+
+tts:
+  provider: openai
+  voice: alloy
+  speed: 1.0
+
+recording:
+  outputDir: "."
+  fps: 30
+
+segments:
+  - id: intro
+    narration: "This is a local n8n instance, freshly set up. I'll install the SHAB node from npm and read the official gazette, where every change to the Swiss commercial register is published. The gazette is open, so there is no account to configure."
+    intent: "show the empty n8n workflows overview"
+    actions:
+      - type: wait
+        duration: 1500
+
+  - id: open-community-nodes
+    narration: "Community nodes are installed from Settings."
+    intent: "open Settings, then the Community nodes page"
+    timing: parallel
+    actions:
+      - type: click
+        target: { role: menuitem, name: "Settings" }
+        done:
+          text:
+            selector: "[role=dialog]"
+            has: "Community nodes"
+      - type: wait
+        duration: 900
+      - type: click
+        target: { role: menuitem, name: "Community nodes" }
+        done:
+          stable: 800
+      - type: wait
+        duration: 1200
+
+  - id: install-package
+    narration: "The package is n8n-nodes-shab. I'm pinning version 0.1.0, the same version I'm submitting for verification."
+    intent: "install the npm package by name and version"
+    timing: parallel
+    actions:
+      - type: click
+        target: { role: button, name: "Install a community node" }
+        done:
+          stable: 800
+      - type: wait
+        duration: 800
+      - type: type
+        target: { placeholder: "e.g. n8n-nodes-chatwork" }
+        text: "n8n-nodes-shab@0.1.0"
+        delay: 60
+      - type: wait
+        duration: 800
+      - type: click
+        target: { role: checkbox }
+        done:
+          stable: 500
+      - type: wait
+        duration: 800
+      - type: click
+        target: { selector: "[data-test-id=install-community-package-button]" }
+        done:
+          text:
+            selector: "body"
+            has: "2 nodes"
+          timeout: 180000
+      - type: wait
+        duration: 1500
+
+  - id: installed
+    narration: "Version 0.1.0, straight from npm. Two nodes: a reader and a trigger."
+    intent: "show the installed package entry and version, then return to the overview"
+    actions:
+      - type: hover
+        target: { text: "n8n-nodes-shab" }
+      - type: wait
+        duration: 2500
+      - type: click
+        target: { text: "Settings" }
+        done:
+          url: "**/home/workflows"
+      - type: wait
+        duration: 1000
+
+  - id: new-workflow
+    narration: "Now a workflow."
+    intent: "create a new blank workflow"
+    timing: parallel
+    actions:
+      - type: click
+        target: { role: button, name: "Add new item" }
+        done:
+          stable: 600
+      - type: wait
+        duration: 800
+      - type: click
+        target: { role: menuitem, name: "New workflow" }
+        done:
+          url: "**/workflow/**"
+      - type: wait
+        duration: 1500
+
+  - id: add-trigger
+    narration: "A manual trigger to start it by hand."
+    intent: "add the Manual Trigger node"
+    timing: parallel
+    actions:
+      - type: click
+        target: { role: button, name: "Open nodes panel" }
+        done:
+          visible: "input[placeholder='Search nodes...']"
+      - type: wait
+        duration: 900
+      - type: type
+        target: { placeholder: "Search nodes..." }
+        text: "manual"
+        delay: 90
+      - type: wait
+        duration: 900
+      - type: click
+        target: { text: "Manual Trigger" }
+        done:
+          hidden: "text=What triggers this workflow?"
+      - type: wait
+        duration: 1300
+
+  - id: add-node
+    narration: "Searching for SHAB brings up the installed package. No credential prompt: the gazette answers unauthenticated."
+    intent: "open the node panel, search SHAB, show the node details, add the publications action"
+    timing: parallel
+    actions:
+      - type: click
+        target: { role: button, name: "Open nodes panel" }
+        done:
+          visible: "input[placeholder='Search nodes...']"
+      - type: wait
+        duration: 800
+      - type: type
+        target: { placeholder: "Search nodes..." }
+        text: "SHAB"
+        delay: 110
+      - type: wait
+        duration: 1300
+      - type: click
+        target: { text: "SHAB" }
+        done:
+          stable: 800
+      - type: wait
+        duration: 3500
+      - type: click
+        target: { text: "Get many publications" }
+        done:
+          stable: 1000
+      - type: wait
+        duration: 1500
+
+  - id: publications
+    narration: "Publications can be filtered by company name, by UID, or read as a whole date range. I'll take one company, from the start of the year."
+    intent: "set the filter to company name, enter it and the start date, and execute"
+    timing: parallel
+    actions:
+      - type: click
+        target: { selector: "[data-test-id=parameter-input-filterBy]" }
+        done:
+          stable: 600
+      - type: wait
+        duration: 800
+      - type: click
+        target: { role: option, name: "Company Name Search the SHAB keyword index" }
+        done:
+          stable: 800
+      - type: wait
+        duration: 900
+      - type: type
+        target: { placeholder: "Nestlé Suisse" }
+        text: "Nestlé S.A."
+        delay: 80
+      - type: wait
+        duration: 800
+      - type: type
+        target: { selector: "[data-test-id=parameter-input-startDate] input" }
+        text: "2026-01-01 00:00:00"
+        delay: 55
+      - type: press
+        key: "Enter"
+      - type: wait
+        duration: 1200
+      - type: click
+        target: { selector: "[data-test-id=node-execute-button]" }
+        done:
+          text:
+            selector: "[data-test-id=output-panel]"
+            has: "eventTypes"
+          timeout: 90000
+      - type: wait
+        duration: 2000
+
+  - id: publications-result
+    narration: "Each publication comes back with its gazette number, its date, the cantons it was published in, the title in four languages, a link back to the source, and an event type the node derives from the publication's structured content. This one is a change of officers."
+    intent: "hold on the classified publication output"
+    actions:
+      - type: wait
+        duration: 4000
+
+  - id: trigger-node
+    narration: "The package also ships a polling trigger that watches the gazette for new publications."
+    intent: "add the SHAB Trigger node"
+    timing: parallel
+    actions:
+      - type: press
+        key: "Escape"
+      - type: wait
+        duration: 1200
+      - type: click
+        target: { role: button, name: "Open nodes panel" }
+        done:
+          visible: "input[placeholder='Search nodes...']"
+      - type: wait
+        duration: 800
+      - type: type
+        target: { placeholder: "Search nodes..." }
+        text: "SHAB"
+        delay: 100
+      - type: wait
+        duration: 1200
+      - type: click
+        target: { text: "SHAB" }
+        done:
+          stable: 800
+      - type: wait
+        duration: 1200
+      - type: click
+        target: { text: "Triggers (1)" }
+        done:
+          stable: 700
+      - type: wait
+        duration: 1000
+      - type: click
+        target: { text: "On new SHAB event" }
+        done:
+          stable: 1200
+      - type: wait
+        duration: 1500
+
+  - id: trigger-config
+    narration: "It can watch a company name, a list of UIDs, or the whole register. I'll watch one company, and let it fire only on the events I care about: the node sorts each publication into incorporations, seat and name changes, capital increases, changes of officers, liquidations and deletions."
+    intent: "switch the watch to Company Name, enter it, and open the event types list"
+    timing: parallel
+    actions:
+      - type: click
+        target: { selector: "[data-test-id=parameter-input-watch]" }
+        done:
+          stable: 600
+      - type: wait
+        duration: 800
+      - type: click
+        target: { role: option, name: "Company Name Search the SHAB keyword index" }
+        done:
+          stable: 800
+      - type: wait
+        duration: 900
+      - type: type
+        target: { placeholder: "Nestlé Suisse" }
+        text: "Nestlé S.A."
+        delay: 80
+      - type: wait
+        duration: 1000
+      - type: click
+        target: { selector: "[data-test-id=parameter-input-eventTypes]" }
+        done:
+          stable: 700
+      - type: wait
+        duration: 4500
+      - type: click
+        target: { role: option, name: "OFFICERS_CHANGED" }
+        done:
+          stable: 700
+      - type: wait
+        duration: 1000
+      - type: press
+        key: "Escape"
+      - type: wait
+        duration: 800
+
+  - id: trigger-fetch
+    narration: "Fetch Test Event reads back one real publication, so the fields are there to map while you build the workflow."
+    intent: "fetch a test event and show the row"
+    timing: parallel
+    actions:
+      - type: click
+        target: { selector: "[data-test-id=node-execute-button]" }
+        done:
+          text:
+            selector: "[data-test-id=output-panel]"
+            has: "OFFICERS_CHANGED"
+          timeout: 120000
+      - type: wait
+        duration: 5000
+
+  - id: outro
+    narration: "That's the package: gazette publications over any date range, and a classified polling trigger, both without an account. The register entry behind a publication, with the purpose, capital and address, comes from a separate API and a separate package: n8n-nodes-zefix."
+    intent: "close the node and show the finished canvas"
+    actions:
+      - type: press
+        key: "Escape"
+      - type: wait
+        duration: 1200
+      - type: click
+        target: { role: button, name: "Zoom to Fit" }
+        done:
+          stable: 700
+      - type: wait
+        duration: 3000

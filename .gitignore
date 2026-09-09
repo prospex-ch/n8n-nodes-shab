@@ -146,7 +146,8 @@ vite.config.ts.timestamp-*
 docs/_build/
 
 # ndemo demo recording
+# The playbook itself is committed: the gazette needs no credentials, so
+# there is nothing to substitute and nothing to keep out of git.
 .ndemo/
-demo/verification/verification.yaml
 demo/verification/audio/
 demo/verification/video-raw/
