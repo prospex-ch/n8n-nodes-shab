@@ -1,0 +1,41 @@
+{
+	"name": "SHAB: alert Slack when a watched company changes its board",
+	"nodes": [
+		{
+			"parameters": {
+				"pollTimes": { "item": [{ "mode": "everyDay", "hour": 8, "minute": 0 }] },
+				"watch": "uids",
+				"uids": "CHE-105.909.036, CHE-105.971.874",
+				"cantons": [],
+				"subRubrics": ["HR02"],
+				"eventTypes": ["OFFICERS_CHANGED", "SEAT_MOVED", "NAME_CHANGED"],
+				"triggerOptions": { "lookbackDays": 7 }
+			},
+			"id": "b0f5a1e2-0000-4000-8000-000000000001",
+			"name": "SHAB Trigger",
+			"type": "n8n-nodes-shab.shabTrigger",
+			"typeVersion": 1,
+			"position": [0, 0]
+		},
+		{
+			"parameters": {
+				"select": "channel",
+				"channelId": { "__rl": true, "value": "#sales-signals", "mode": "name" },
+				"text": "=*{{ $json.companyName }}* ({{ $json.uid }})\n{{ $json.eventTypes.join(', ') }} on {{ $json.publicationDate }}\n{{ $json.sourceUrl }}",
+				"otherOptions": {}
+			},
+			"id": "b0f5a1e2-0000-4000-8000-000000000002",
+			"name": "Send to Slack",
+			"type": "n8n-nodes-base.slack",
+			"typeVersion": 2.2,
+			"position": [240, 0]
+		}
+	],
+	"connections": {
+		"SHAB Trigger": {
+			"main": [[{ "node": "Send to Slack", "type": "main", "index": 0 }]]
+		}
+	},
+	"settings": {},
+	"pinData": {}
+}

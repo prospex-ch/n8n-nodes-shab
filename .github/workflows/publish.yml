@@ -1,0 +1,64 @@
+# Publishes this package to npm with a provenance statement whenever a version
+# tag is pushed. See https://docs.npmjs.com/generating-provenance-statements
+#
+# Authentication uses npm trusted publishing, configured on npmjs.com under the
+# package settings ("Trusted Publisher": GitHub Actions, repository
+# prospex-ch/n8n-nodes-shab, workflow publish.yml, empty environment).
+# No secret is involved: GitHub's OIDC token is exchanged for a short-lived
+# credential. The NPM_TOKEN reference below stays as a fallback and resolves to
+# an empty string while no such secret exists.
+#
+# Release flow: run `npm run release` locally. It lints, builds, bumps the
+# version, updates the changelog, commits, tags and pushes. The tag push starts
+# this workflow, which lints and builds again and then runs
+# `npm publish --provenance`.
+
+name: Publish
+
+on:
+  push:
+    tags:
+      - '*.*.*'
+      - 'v*.*.*'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    name: Publish to npm
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Required to mint the OIDC token that signs the provenance attestation
+      # (and to authenticate with npm when trusted publishing is used).
+      id-token: write
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+          registry-url: 'https://registry.npmjs.org'
+
+      # Trusted publishing and provenance need npm 11.5.1 or newer, which is
+      # ahead of the version bundled with the current Node LTS.
+      - name: Update npm
+        run: npm install -g npm@latest
+
+      - name: Install dependencies
+        run: npm ci
+
+      # The tests import from dist/, so eslint's import resolver needs the build
+      # to exist. `n8n-node release` lints before it builds, so build here first.
+      - name: Build
+        run: npm run build
+
+      - name: Publish
+        # Inside GitHub Actions, `n8n-node release` runs lint, build and then
+        # `npm publish` with NPM_CONFIG_PROVENANCE=true.
+        run: npm run release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,0 +1,2243 @@
+[
+	{
+		"meta": {
+			"id": "68aa542e-6a5c-493e-9912-ba93669802d0",
+			"creationDate": "2026-08-24T10:05:00.667Z",
+			"updateDate": "2026-08-25T22:38:20.091Z",
+			"rubric": "HR",
+			"subRubric": "HR01",
+			"language": "fr",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR01-1006740640",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "L'entité juridique mentionnée a été inscrite au registre du commerce et jouit de la capacité juridique. <br />Publication selon les art. 9 et 35 ORC.",
+			"cantons": [
+				"GE"
+			],
+			"secondaryTenants": null,
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Neueintragung Volta GG Sàrl, Meyrin",
+				"en": "New entries Volta GG Sàrl, Meyrin",
+				"it": "Nuove registrazioni Volta GG Sàrl, Meyrin",
+				"fr": "Nouvelles entrées Volta GG Sàrl, Meyrin"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"publicationText": "Volta GG Sàrl, à Meyrin, Chemin du Grand-Puits 38, 1217 Meyrin, CHE-159.326.663. Nouvelle société à responsabilité limitée. Statuts du 17.06.2026. But: le commerce de voitures. Obligation de fournir des prestations accessoires, droits de préférence, de préemption ou d'emption: pour les détails, voir les statuts. Capital: CHF 20'000. Organe de publication: Feuille Officielle Suisse du Commerce. Communication aux associés: par écrit ou par courriel. Associé-gérant: Grisca Igor, de Roumanie, à Onex, pour 200 parts de CHF 100 avec signature individuelle. Selon déclaration à la constitution de la société, il est renoncé à un contrôle restreint.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Neueintragung {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"fr": "Nouvelles entrées {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"it": "Nuove registrazioni {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"en": "New entries {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsNew.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "20847",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Registre du commerce du Canton de Genève"
+			},
+			"transaction": {
+				"registration": true
+			},
+			"commonsNew": {
+				"company": {
+					"name": "Volta GG Sàrl",
+					"uid": "CHE-159.326.663",
+					"uidOrganisationId": "159326663",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH66023890265",
+					"seat": "Meyrin",
+					"legalForm": "0107",
+					"noAddress": false,
+					"address": {
+						"street": "Chemin du Grand-Puits",
+						"houseNumber": "38",
+						"swissZipCode": "1217",
+						"town": "Meyrin"
+					}
+				},
+				"purpose": "le commerce de voitures",
+				"capital": [
+					{
+						"nominal": 20000.0,
+						"paid": 20000.0
+					}
+				],
+				"revision": {
+					"optingOut": true
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "4499794c-12f5-4c0c-8bfc-6f6bcbc3c8ac",
+			"creationDate": "2026-08-24T10:23:20.829Z",
+			"updateDate": "2026-08-25T22:38:19.270Z",
+			"rubric": "HR",
+			"subRubric": "HR01",
+			"language": "de",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR01-1006740173",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "Die aufgeführte Rechtseinheit wurde ins Handelsregister aufgenommen und ist rechtsfähig. <br />Publikation nach HRegV Art. 9 und Art. 35.",
+			"cantons": [
+				"BL"
+			],
+			"secondaryTenants": null,
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Neueintragung Nearivo GmbH, Reinach (BL)",
+				"en": "New entries Nearivo GmbH, Reinach (BL)",
+				"it": "Nuove registrazioni Nearivo GmbH, Reinach (BL)",
+				"fr": "Nouvelles entrées Nearivo GmbH, Reinach (BL)"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"publicationText": "Nearivo GmbH (Nearivo Sàrl) (Nearivo Sagl) (Nearivo Ltd liab Co), in Reinach (BL), CHE-282.686.396, Christoph Merian-Ring 11, 4153 Reinach BL, Gesellschaft mit beschränkter Haftung (Neueintragung). Statutendatum: 27.07.2026. Zweck: Die Gesellschaft bezweckt die Entwicklung, den Betrieb, die Vermarktung und den Vertrieb von digitalen Plattformen, Softwarelösungen, Applikationen und internetbasierten Dienstleistungen. Sie entwickelt und betreibt digitale Marktplätze sowie Vermittlungs-, Buchungs-, Vergleichs-, Marketing-, Kommunikations- und Verwaltungslösungen und erbringt damit zusammenhängende Dienstleistungen. Die Gesellschaft vermittelt, veröffentlicht und bewirbt Angebote von Unternehmen, Organisationen und Privatpersonen, insbesondere in den Bereichen Dienstleistungen, Veranstaltungen, Kurse, Stellenangebote, Gastronomie, Tourismus, Handel und weiteren verwandten Bereichen. Sie kann E-Commerce-Plattformen betreiben, digitale Geschäftsmodelle entwickeln und Leistungen im Bereich Technologie, Digitalisierung und Online-Marketing anbieten. Die Gesellschaft kann Zweigniederlassungen in der Schweiz und im Ausland errichten, sich an anderen Unternehmungen des In- und des Auslandes beteiligen, gleichartige oder verwandte Unternehmen erwerben oder sich mit solchen zusammenschliessen sowie alle Geschäfte eingehen und Verträge abschliessen, die geeignet sind, den Zweck der Gesellschaft zu fördern oder die direkt oder indirekt damit im Zusammenhang stehen. Sie kann Grundstücke, Immaterialgüterrechte und Lizenzen aller Art erwerben, verwalten, belasten und veräussern. Stammkapital: CHF 20'000.00. Nebenleistungspflichten gemäss näherer Umschreibung in den Statuten. Publikationsorgan: SHAB. Die Mitteilungen der Geschäftsführung an die Gesellschafter erfolgen schriftlich oder per E-Mail. Gemäss Erklärung bei der Gründung der Gesellschaft wird auf eine eingeschränkte Revision verzichtet. Eingetragene Personen: Forster, Thomas Marc Albert, von Basel, in Röschenz, Gesellschafter und Vorsitzender der Geschäftsführung, mit Einzelunterschrift, mit 100 Stammanteilen zu je CHF 100.00; Kilchherr, Vincent Vitalis Maria, von Basel, in Allschwil, Gesellschafter und Geschäftsführer, mit Einzelunterschrift, mit 100 Stammanteilen zu je CHF 100.00.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Neueintragung {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"fr": "Nouvelles entrées {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"it": "Nuove registrazioni {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"en": "New entries {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsNew.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "5073",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Handelsregisteramt des Kantons Basel-Landschaft"
+			},
+			"transaction": {
+				"registration": true
+			},
+			"commonsNew": {
+				"company": {
+					"name": "Nearivo GmbH",
+					"translations": "(Nearivo Sàrl) (Nearivo Sagl) (Nearivo Ltd liab Co)",
+					"uid": "CHE-282.686.396",
+					"uidOrganisationId": "282686396",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH28040330402",
+					"seat": "Reinach (BL)",
+					"legalForm": "0107",
+					"noAddress": false,
+					"address": {
+						"street": "Christoph Merian-Ring",
+						"houseNumber": "11",
+						"swissZipCode": "4153",
+						"town": "Reinach BL"
+					}
+				},
+				"purpose": "Die Gesellschaft bezweckt die Entwicklung, den Betrieb, die Vermarktung und den Vertrieb von digitalen Plattformen, Softwarelösungen, Applikationen und internetbasierten Dienstleistungen. Sie entwickelt und betreibt digitale Marktplätze sowie Vermittlungs-, Buchungs-, Vergleichs-, Marketing-, Kommunikations- und Verwaltungslösungen und erbringt damit zusammenhängende Dienstleistungen. Die Gesellschaft vermittelt, veröffentlicht und bewirbt Angebote von Unternehmen, Organisationen und Privatpersonen, insbesondere in den Bereichen Dienstleistungen, Veranstaltungen, Kurse, Stellenangebote, Gastronomie, Tourismus, Handel und weiteren verwandten Bereichen. Sie kann E-Commerce-Plattformen betreiben, digitale Geschäftsmodelle entwickeln und Leistungen im Bereich Technologie, Digitalisierung und Online-Marketing anbieten. Die Gesellschaft kann Zweigniederlassungen in der Schweiz und im Ausland errichten, sich an anderen Unternehmungen des In- und des Auslandes beteiligen, gleichartige oder verwandte Unternehmen erwerben oder sich mit solchen zusammenschliessen sowie alle Geschäfte eingehen und Verträge abschliessen, die geeignet sind, den Zweck der Gesellschaft zu fördern oder die direkt oder indirekt damit im Zusammenhang stehen. Sie kann Grundstücke, Immaterialgüterrechte und Lizenzen aller Art erwerben, verwalten, belasten und veräussern.",
+				"capital": [
+					{
+						"nominal": 20000.0,
+						"paid": 20000.0
+					}
+				],
+				"revision": {
+					"optingOut": true
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "e9300eb2-a334-4ec2-84e0-930ed46851ab",
+			"creationDate": "2026-08-24T10:05:41.337Z",
+			"updateDate": "2026-08-25T22:37:19.029Z",
+			"rubric": "HR",
+			"subRubric": "HR03",
+			"language": "fr",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR03-1006740618",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": null,
+			"cantons": [
+				"GE"
+			],
+			"secondaryTenants": null,
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Löschung Nakanes Sàrl, en liquidation, Genève",
+				"en": "Deletion Nakanes Sàrl, en liquidation, Genève",
+				"it": "Cancellazione Nakanes Sàrl, en liquidation, Genève",
+				"fr": "Annulation Nakanes Sàrl, en liquidation, Genève"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "Nakanes Sàrl, en liquidation",
+					"uid": "CHE-436.663.341",
+					"uidOrganisationId": "436663341",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH66011590225",
+					"seat": "Genève",
+					"legalForm": "0107",
+					"noAddress": false,
+					"address": {
+						"street": "Rue de Hesse",
+						"houseNumber": "12",
+						"swissZipCode": "1204",
+						"town": "Genève"
+					}
+				},
+				"purpose": "l'exploitation de cafés-restaurants, de bars, de cantines, de débits de boissons et de tous autres établissements publics dans le domaine de la restauration; La gestion et l'acquisition de points de vente et de filiales, également sous forme de franchises, en Suisse et à l'étranger; Le conditionnement, la distribution, l'achat et la vente de denrées alimentaires et de boissons ainsi que, de manière générale, toutes activités liées à la restauration; La fourniture de machines, de mobilier et d'équipement pour la restauration, en général; La création et l'organisation d'événements et de manifestations au sein et hors de son exploitation; Toutes prestations de conseil (Consulting), notamment dans les domaines précités. Elle pourra, en outre, effectuer, pour son compte, toutes opérations financières, commerciales ou mobilières se rattachant directement ou indirectement à son but social et s'intéresser, sous toutes formes, à toutes entreprises ayant un but similaire, notamment par la prise de participations dans de telles entreprises. La société pourra constituer des succursales et des filiales en Suisse et à l'étranger. Dans le cadre de son but, la société peut également acquérir et détenir des biens immobiliers suisses ou des actions de sociétés ayant un but similaire et détenant des biens immobiliers suisses pour autant qu'ils aient une affectation exclusivement commerciale ou industrielle.",
+				"capital": {
+					"nominal": 20000.0,
+					"paid": 20000.0
+				},
+				"checkOptingOut": false
+			},
+			"lastFosc": {
+				"lastFoscDate": "2026-03-25T00:00:00.000Z",
+				"lastFoscNumber": 58,
+				"lastFoscSequence": "1006606590"
+			},
+			"publicationText": "Nakanes Sàrl, en liquidation, à Genève, CHE-436.663.341 (FOSC du 25.03.2026, p. 0/1006606590). La procédure de faillite ayant été clôturée par jugement du 13.08.2026, la société est radiée d'office.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Löschung {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}",
+						"fr": "Annulation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}",
+						"it": "Cancellazione {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}",
+						"en": "Deletion {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "20941",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Registre du commerce du Canton de Genève"
+			},
+			"transaction": {
+				"delete": {
+					"deletionDate": "2026-08-21T00:00:00.000Z"
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "fc014782-5acc-421d-8253-8db1133199f2",
+			"creationDate": "2026-08-24T09:53:46.006Z",
+			"updateDate": "2026-08-25T22:37:20.350Z",
+			"rubric": "HR",
+			"subRubric": "HR03",
+			"language": "fr",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR03-1006740429",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": null,
+			"cantons": [
+				"VD"
+			],
+			"secondaryTenants": null,
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Löschung JMA S.à r.l. en liquidation, Vevey",
+				"en": "Deletion JMA S.à r.l. en liquidation, Vevey",
+				"it": "Cancellazione JMA S.à r.l. en liquidation, Vevey",
+				"fr": "Annulation JMA S.à r.l. en liquidation, Vevey"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "JMA S.à r.l. en liquidation",
+					"uid": "CHE-102.925.180",
+					"uidOrganisationId": "102925180",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH55001617613",
+					"seat": "Vevey",
+					"legalForm": "0107",
+					"noAddress": false,
+					"address": {
+						"street": "Avenue du Général-Guisan",
+						"houseNumber": "58",
+						"swissZipCode": "1800",
+						"town": "Vevey"
+					}
+				},
+				"purpose": "la société a pour but la reprise et l'exploitation d'établissements publics. Elle peut se charger de toutes opérations financières, commerciales, industrielles, immobilière et conclure tous contrats propres à développer son but, en Suisse et à l'étranger. Elle peut également créer des succursales, prendre des participations dans d'autres sociétés ou mandater des sous-traitants, en Suisse et à l'étranger. Elle peut accorder des prêts à ses associés ou à des tiers, se porter caution d'emprunts souscrits par ses associés ou des tiers, garantir ses emprunts par l'émission ou le nantissement de titres hypothécaires ou par la souscription de tout autre engagement financier, mettre ses biens en gage pour garantir toute créance.",
+				"capital": {
+					"nominal": 200000.0,
+					"paid": 200000.0
+				},
+				"checkOptingOut": false
+			},
+			"lastFosc": {
+				"lastFoscDate": "2026-07-23T00:00:00.000Z",
+				"lastFoscNumber": 140,
+				"lastFoscSequence": "1006714990"
+			},
+			"publicationText": "JMA S.à r.l. en liquidation, à Vevey, CHE-102.925.180 (FOSC du 23.07.2026, p. 0/1006714990). La procédure de faillite ayant été clôturée le 19.08.2026, la société est radiée d'office, conformément à l'art. 159a, al. 2, let. b ORC.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Löschung {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}",
+						"fr": "Annulation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}",
+						"it": "Cancellazione {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}",
+						"en": "Deletion {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "17652",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Registre du commerce du Canton de Vaud"
+			},
+			"transaction": {
+				"delete": {
+					"deletionDate": "2026-08-21T00:00:00.000Z"
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "f96f2242-6ee7-4ef5-a67a-cebe933a5006",
+			"creationDate": "2026-08-24T10:07:08.959Z",
+			"updateDate": "2026-08-25T22:37:36.174Z",
+			"rubric": "HR",
+			"subRubric": "HR02",
+			"language": "fr",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR02-1006740552",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "La mutation de l'entité juridique mentionnée a été effectuée dans le registre du commerce. <br />Publication selon les art. 9 et 35 ORC.",
+			"cantons": [
+				"VS"
+			],
+			"secondaryTenants": [
+				{
+					"tenantCode": "kabvs",
+					"publicationDate": "2026-08-26T00:00:00.000Z"
+				}
+			],
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Mutation Cristal swiss tour Sàrl, Martigny, neu Saint-Gingolph",
+				"en": "Change Cristal swiss tour Sàrl, Martigny, new Saint-Gingolph",
+				"it": "Cambiamenti Cristal swiss tour Sàrl, Martigny, nuovo Saint-Gingolph",
+				"fr": "Mutation Cristal swiss tour Sàrl, Martigny, nouveau Saint-Gingolph"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "Cristal swiss tour Sàrl",
+					"uid": "CHE-307.336.313",
+					"uidOrganisationId": "307336313",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH62140126599",
+					"seat": "Martigny",
+					"legalForm": "0107",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o Vadim Pogreban",
+						"street": "Rue du Léman",
+						"houseNumber": "3",
+						"swissZipCode": "1920",
+						"town": "Martigny"
+					}
+				},
+				"purpose": "La société a pour but: le transport national et international, de voyageurs, l'organisation d'excursions pour son propre compte et pour le compte d'autrui. Elle peut faire toutes opérations commerciales et financières en relation directe ou indirecte avec son but ou propres à le développer. Elle peut accorder des prêts à ses associes ou à des tiers.",
+				"capital": [
+					{
+						"nominal": 20000.0,
+						"paid": 20000.0
+					}
+				],
+				"revision": {
+					"optingOut": false
+				}
+			},
+			"lastFosc": {
+				"lastFoscDate": "2025-01-06T00:00:00.000Z",
+				"lastFoscNumber": 2,
+				"lastFoscSequence": "1006221191"
+			},
+			"publicationText": "Cristal swiss tour Sàrl, à Martigny, CHE-307.336.313, société à responsabilité limitée (No. FOSC 2 du 06.01.2025, Publ. 1006221191). Modification des statuts: 19.08.2026. Nouveau siège: Saint-Gingolph. Nouvelle adresse: c/o Vadim Pogreban, Ruelle du Prolet 1, 1898 St-Gingolph. Inscription ou modification de personne(s): Pogreban, Vadim, citoyen roumain, à Saint-Gingolph, associé et président des gérants, avec signature individuelle, pour 100 parts sociales de CHF 100.00 [précédemment: à Martigny].",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+						"municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "3262",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Registre du commerce du Bas-Valais"
+			},
+			"transaction": {
+				"update": {
+					"changements": {
+						"others": false,
+						"nameChanged": false,
+						"uidChanged": false,
+						"legalStatusChanged": false,
+						"seatChanged": true,
+						"addressChanged": true,
+						"purposeChanged": false,
+						"capitalChanged": {
+							"nominal": false,
+							"paid": false,
+							"other": false
+						},
+						"statusChanged": {
+							"bankruptcy": {
+								"dissolution": false,
+								"dismissal": false,
+								"revocation": false,
+								"cancellation": false,
+								"summary": false
+							},
+							"liquidation": {
+								"dissolution": {
+									"nonExceptional": false,
+									"or731b": false,
+									"hregv153b": false
+								},
+								"revocation": false
+							},
+							"suspension": false,
+							"reentry": false,
+							"reapplication": false
+						}
+					}
+				}
+			},
+			"commonsNew": {
+				"company": {
+					"name": "Cristal swiss tour Sàrl",
+					"uid": "CHE-307.336.313",
+					"uidOrganisationId": "307336313",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH62140126599",
+					"seat": "Saint-Gingolph",
+					"legalForm": "0107",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o Vadim Pogreban",
+						"street": "Ruelle du Prolet",
+						"houseNumber": "1",
+						"swissZipCode": "1898",
+						"town": "St-Gingolph"
+					}
+				},
+				"purpose": "La société a pour but: le transport national et international, de voyageurs, l'organisation d'excursions pour son propre compte et pour le compte d'autrui. Elle peut faire toutes opérations commerciales et financières en relation directe ou indirecte avec son but ou propres à le développer. Elle peut accorder des prêts à ses associes ou à des tiers.",
+				"capital": [
+					{
+						"nominal": 20000.0,
+						"paid": 20000.0
+					}
+				],
+				"revision": {
+					"optingOut": false
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "cf28fb4f-e0a9-4bf8-971e-35b8cc7783f9",
+			"creationDate": "2026-08-24T09:52:37.334Z",
+			"updateDate": "2026-08-25T22:37:36.668Z",
+			"rubric": "HR",
+			"subRubric": "HR02",
+			"language": "fr",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR02-1006740578",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "La mutation de l'entité juridique mentionnée a été effectuée dans le registre du commerce. <br />Publication selon les art. 9 et 35 ORC.",
+			"cantons": [
+				"VS"
+			],
+			"secondaryTenants": [
+				{
+					"tenantCode": "kabvs",
+					"publicationDate": "2026-08-26T00:00:00.000Z"
+				}
+			],
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Mutation Horde SA, succursale de Sion, Sion",
+				"en": "Change Horde SA, succursale de Sion, Sion",
+				"it": "Cambiamenti Horde SA, succursale de Sion, Sion",
+				"fr": "Mutation Horde SA, succursale de Sion, Sion"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "Horde SA, succursale de Sion",
+					"uid": "CHE-334.983.171",
+					"uidOrganisationId": "334983171",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH62690258890",
+					"seat": "Sion",
+					"legalForm": "0151",
+					"noAddress": false,
+					"address": {
+						"street": "Rue de Conthey",
+						"houseNumber": "6",
+						"swissZipCode": "1950",
+						"town": "Sion"
+					}
+				},
+				"revision": {
+					"optingOut": false
+				},
+				"headOffice": {
+					"name": "Horde SA",
+					"country": "CH",
+					"uid": "CHE-146.961.086",
+					"uidOrganisationId": "146961086",
+					"uidOrganisationIdCategorie": "CHE"
+				}
+			},
+			"lastFosc": {
+				"lastFoscDate": "2025-11-13T00:00:00.000Z",
+				"lastFoscNumber": 220,
+				"lastFoscSequence": "1006484228"
+			},
+			"publicationText": "Horde SA, succursale de Sion, à Sion, CHE-334.983.171, succursale suisse (No. FOSC 220 du 13.11.2025, Publ. 1006484228), Siège principal à: Lausanne. Nouvelle adresse: Rue de la Dent-Blanche 12, 1950 Sion.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+						"municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "3695",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Registre du commerce du Valais Central"
+			},
+			"transaction": {
+				"update": {
+					"changements": {
+						"others": false,
+						"nameChanged": false,
+						"uidChanged": false,
+						"legalStatusChanged": false,
+						"seatChanged": true,
+						"addressChanged": true,
+						"purposeChanged": false,
+						"capitalChanged": {
+							"nominal": false,
+							"paid": false,
+							"other": false
+						},
+						"statusChanged": {
+							"bankruptcy": {
+								"dissolution": false,
+								"dismissal": false,
+								"revocation": false,
+								"cancellation": false,
+								"summary": false
+							},
+							"liquidation": {
+								"dissolution": {
+									"nonExceptional": false,
+									"or731b": false,
+									"hregv153b": false
+								},
+								"revocation": false
+							},
+							"suspension": false,
+							"reentry": false,
+							"reapplication": false
+						}
+					}
+				}
+			},
+			"commonsNew": {
+				"company": {
+					"name": "Horde SA, succursale de Sion",
+					"uid": "CHE-334.983.171",
+					"uidOrganisationId": "334983171",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH62690258890",
+					"seat": "Sion",
+					"legalForm": "0151",
+					"noAddress": false,
+					"address": {
+						"street": "Rue de la Dent-Blanche",
+						"houseNumber": "12",
+						"swissZipCode": "1950",
+						"town": "Sion"
+					}
+				},
+				"revision": {
+					"optingOut": false
+				},
+				"headOffice": {
+					"name": "Horde SA",
+					"country": "CH",
+					"uid": "CHE-146.961.086",
+					"uidOrganisationId": "146961086",
+					"uidOrganisationIdCategorie": "CHE"
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "e6b267fa-b937-4848-bc31-06f3a4d80c70",
+			"creationDate": "2026-08-24T10:01:36.928Z",
+			"updateDate": "2026-08-25T22:37:51.476Z",
+			"rubric": "HR",
+			"subRubric": "HR02",
+			"language": "de",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR02-1006740255",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "Die Mutation der aufgeführten Rechtseinheit wurde im Handelsregister vorgenommen. <br />Publikation nach HRegV Art. 9 und Art. 35.",
+			"cantons": [
+				"SG"
+			],
+			"secondaryTenants": null,
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Mutation Tailorautomation GmbH, Au (SG), neu Tailorautomation AG, St. Margrethen",
+				"en": "Change Tailorautomation GmbH, Au (SG), new Tailorautomation AG, St. Margrethen",
+				"it": "Cambiamenti Tailorautomation GmbH, Au (SG), nuovo Tailorautomation AG, St. Margrethen",
+				"fr": "Mutation Tailorautomation GmbH, Au (SG), nouveau Tailorautomation AG, St. Margrethen"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "Tailorautomation GmbH",
+					"uid": "CHE-348.531.935",
+					"uidOrganisationId": "348531935",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH32041023953",
+					"seat": "Au (SG)",
+					"legalForm": "0107",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o TM4u GmbH",
+						"street": "Hauptstrasse",
+						"houseNumber": "4",
+						"swissZipCode": "9434",
+						"town": "Au SG"
+					}
+				},
+				"purpose": "Die Gesellschaft bezweckt die Entwicklung und Herstellung automatisierter Textilproduktionsanlagen. Die Gesellschaft kann Zweigniederlassungen und Tochtergesellschaften im In- und Ausland errichten und sich an anderen Unternehmen im In- und Ausland beteiligen sowie alle Geschäfte tätigen, die direkt oder indirekt mit ihrem Zweck in Zusammenhang stehen. Sie kann auch Finanzierungen für eigene oder fremde Rechnung vornehmen sowie Garantien und Bürgschaften für Tochtergesellschaften und Dritte eingehen.",
+				"capital": [
+					{
+						"nominal": 20000.0
+					}
+				],
+				"revision": {
+					"optingOut": true
+				}
+			},
+			"lastFosc": {
+				"lastFoscDate": "2026-01-06T00:00:00.000Z",
+				"lastFoscNumber": 2,
+				"lastFoscSequence": "1006529604"
+			},
+			"publicationText": "Tailorautomation GmbH, in Au (SG), CHE-348.531.935, Gesellschaft mit beschränkter Haftung (SHAB Nr. 2 vom 06.01.2026, Publ. 1006529604). Statutenänderung: 13.08.2026. Umwandlung: Die Gesellschaft mit beschränkter Haftung hat das Stammkapital auf CHF 100'000.00 und später auf CHF 114'285.71 erhöht und wird gemäss Umwandlungsplan vom 13.08.2026 und Zwischenbilanz per 31.05.2026 mit Aktiven von CHF 278'065.70 und Passiven (Fremdkapital) von CHF 273'287.80 in eine Aktiengesellschaft umgewandelt. Die zweite Erhöhung des Stammkapitals umfasst nebst dem nominellen Erhöhungsbetrag von CHF 14'285.71 auch ein Agio von CHF 485'714.14, mit dem die Unterbilanz und der Kapitalverlust getilgt wird. Die Gesellschafter erhalten für ihre bisherigen Stammanteile 11'428'571 zu 100% liberierte Aktien zu CHF 0.01. Firma neu: Tailorautomation AG. Sitz neu: St. Margrethen. Domizil neu: Industriestrasse 25, 9430 St. Margrethen SG. Rechtsform neu: Aktiengesellschaft. Zweck neu: Die Gesellschaft bezweckt die Entwicklung, Herstellung, den Erwerb, den Verkauf, die Vermietung, den Betrieb und die Wartung von automatisierten Textilproduktionsanlagen sowie die Erbringung sämtlicher damit direkt oder indirekt zusammenhängender Dienstleistungen. Die Gesellschaft kann Zweigniederlassungen und Tochtergesellschaften im In- und Ausland errichten und sich an anderen Unternehmen im In- und Ausland beteiligen sowie alle Geschäfte tätigen, die direkt oder indirekt mit ihrem Zweck in Zusammenhang stehen. Die Gesellschaft kann im In- und Ausland Grundeigentum erwerben, belasten, veräussern und verwalten. Sie kann auch Finanzierungen für eigene oder fremde Rechnung vornehmen sowie Garantien und Bürgschaften für Tochtergesellschaften und Dritte eingehen. Aktienkapital neu: CHF 114'285.71 [bisher: CHF 20'000.00]. Liberierung Aktienkapital neu: CHF 114'285.71. Aktien neu: 11'428'571 Namenaktien zu CHF 0.01. Die Gesellschaft hat mit Beschluss vom 13.08.2026 eine bedingte Kapitalerhöhung gemäss näherer Umschreibung in den Statuten eingeführt. Mitteilungen neu: Mitteilungen der Gesellschaft an die Aktionäre erfolgen per Brief oder E-Mail an die im Aktienbuch verzeichneten Adressen. Vinkulierung neu: Die Übertragbarkeit der Namenaktien ist nach Massgabe der Statuten beschränkt. Gemäss Erklärung bei der Umwandlung der Gesellschaft wird weiterhin auf eine eingeschränkte Revision verzichtet. [bisher: Gemäss Erklärung bei der Gründung der Gesellschaft wird auf eine eingeschränkte Revision verzichtet.]. [gestrichen: Nebenleistungspflichten, Vorhand-, Vorkaufs- oder Kaufsrechte gemäss näherer Umschreibung in den Statuten.]. Eingetragene Personen neu oder mutierend: Haselwandter, Stefan, österreichischer Staatsangehöriger, in Boston (US), Präsident des Verwaltungsrates, mit Einzelunterschrift [bisher: Gesellschafter, ohne Zeichnungsberechtigung]; Herburger, Lukas Emanuel, österreichischer Staatsangehöriger, in Zürich, Mitglied des Verwaltungsrates, mit Einzelunterschrift [bisher: Gesellschafter und Geschäftsführer, mit Einzelunterschrift].",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+						"municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "9942",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Amt für Handelsregister und Notariate Kanton SG"
+			},
+			"transaction": {
+				"update": {
+					"changements": {
+						"others": false,
+						"nameChanged": true,
+						"uidChanged": false,
+						"legalStatusChanged": true,
+						"seatChanged": true,
+						"addressChanged": true,
+						"purposeChanged": true,
+						"capitalChanged": {
+							"nominal": true,
+							"paid": true,
+							"other": true
+						},
+						"statusChanged": {
+							"bankruptcy": {
+								"dissolution": false,
+								"dismissal": false,
+								"revocation": false,
+								"cancellation": false,
+								"summary": false
+							},
+							"liquidation": {
+								"dissolution": {
+									"nonExceptional": false,
+									"or731b": false,
+									"hregv153b": false
+								},
+								"revocation": false
+							},
+							"suspension": false,
+							"reentry": false,
+							"reapplication": false
+						}
+					}
+				}
+			},
+			"commonsNew": {
+				"company": {
+					"name": "Tailorautomation AG",
+					"uid": "CHE-348.531.935",
+					"uidOrganisationId": "348531935",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH32041023953",
+					"seat": "St. Margrethen",
+					"legalForm": "0106",
+					"noAddress": false,
+					"address": {
+						"street": "Industriestrasse",
+						"houseNumber": "25",
+						"swissZipCode": "9430",
+						"town": "St. Margrethen SG"
+					}
+				},
+				"purpose": "Die Gesellschaft bezweckt die Entwicklung, Herstellung, den Erwerb, den Verkauf, die Vermietung, den Betrieb und die Wartung von automatisierten Textilproduktionsanlagen sowie die Erbringung sämtlicher damit direkt oder indirekt zusammenhängender Dienstleistungen. Die Gesellschaft kann Zweigniederlassungen und Tochtergesellschaften im In- und Ausland errichten und sich an anderen Unternehmen im In- und Ausland beteiligen sowie alle Geschäfte tätigen, die direkt oder indirekt mit ihrem Zweck in Zusammenhang stehen. Die Gesellschaft kann im In- und Ausland Grundeigentum erwerben, belasten, veräussern und verwalten. Sie kann auch Finanzierungen für eigene oder fremde Rechnung vornehmen sowie Garantien und Bürgschaften für Tochtergesellschaften und Dritte eingehen.",
+				"capital": [
+					{
+						"nominal": 114285.71,
+						"paid": 114285.71
+					}
+				],
+				"revision": {
+					"optingOut": true
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "2ddafe89-1076-45d1-8059-1b3f735b303d",
+			"creationDate": "2026-08-24T10:01:11.447Z",
+			"updateDate": "2026-08-25T22:37:51.721Z",
+			"rubric": "HR",
+			"subRubric": "HR02",
+			"language": "de",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR02-1006740244",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "Die Mutation der aufgeführten Rechtseinheit wurde im Handelsregister vorgenommen. <br />Publikation nach HRegV Art. 9 und Art. 35.",
+			"cantons": [
+				"SG"
+			],
+			"secondaryTenants": null,
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Mutation KVA BidCo AG, St. Gallen",
+				"en": "Change KVA BidCo AG, St. Gallen",
+				"it": "Cambiamenti KVA BidCo AG, St. Gallen",
+				"fr": "Mutation KVA BidCo AG, St. Gallen"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "KVA BidCo AG",
+					"translations": "(KVA BidCo Ltd)",
+					"uid": "CHE-326.382.153",
+					"uidOrganisationId": "326382153",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH32031033709",
+					"seat": "St. Gallen",
+					"legalForm": "0106",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o Konvekta AG",
+						"street": "Letzistrasse",
+						"houseNumber": "23",
+						"swissZipCode": "9015",
+						"town": "St. Gallen"
+					}
+				},
+				"purpose": "Der Zweck der Gesellschaft ist die Verwaltung von eigenem Vermögen, insbesondere das Halten und Verwalten von Investments. Die Gesellschaft kann Zweigniederlassungen und Tochtergesellschaften im In- und Ausland errichten und sich an anderen Unternehmen im In- und Ausland beteiligen sowie alle Geschäfte tätigen, die direkt oder indirekt mit ihrem Zweck in Zusammenhang stehen. Die Gesellschaft kann im In- und Ausland Grundeigentum erwerben, belasten, veräussern und verwalten. Sie kann auch Finanzierungen für eigene oder fremde Rechnung vornehmen sowie Garantien und Bürgschaften für Tochtergesellschaften und Dritte eingehen.",
+				"capital": [
+					{
+						"nominal": 100000.0,
+						"paid": 100000.0
+					}
+				],
+				"revision": {
+					"optingOut": false
+				}
+			},
+			"lastFosc": {
+				"lastFoscDate": "2026-06-09T00:00:00.000Z",
+				"lastFoscNumber": 108,
+				"lastFoscSequence": "1006671580"
+			},
+			"publicationText": "KVA BidCo AG, in St. Gallen, CHE-326.382.153, Aktiengesellschaft (SHAB Nr. 108 vom 09.06.2026, Publ. 1006671580). Statutenänderung: 19.08.2026. Zweck neu: Der Zweck der Gesellschaft ist die Verwaltung von eigenem Vermögen, insbesondere das Halten und Verwalten von Investments. Die Gesellschaft kann Zweigniederlassungen und Tochtergesellschaften im In- und Ausland errichten und sich an anderen Unternehmen im In- und Ausland beteiligen sowie alle Geschäfte tätigen, die direkt oder in direkt mit ihrem Zweck in Zusammenhang stehen. Die Gesellschaft kann im In- und Ausland Grundeigentum erwerben, belasten, veräussern und verwalten. Sie kann auch Finanzierungen für eigene oder fremde Rechnung vornehmen sowie Garantien und Bürgschaften für Tochtergesellschaften und Dritte eingehen. Die Gesellschaft kann ihren direkten oder indirekten Aktionären oder anderen Gesellschaften des Konzerns Darlehen und andere direkte oder indirekte Finanzierungen gewähren, einschliesslich im Rahmen von Cash Pooling Vereinbarungen, und für deren Verbindlichkeiten gegenüber Dritten Sicherheiten aller Art bestellen, einschliesslich mittels Verpfändung oder Sicherungsübereignung eigener Aktiven oder Garantien jeglicher Art, auch wenn diese Darlehen oder Sicherheiten im ausschliesslichen Interesse ihrer direkten oder indirekten Aktionäre oder anderen Konzerngesellschaften liegen und unentgeltlich gewährt werden. Vinkulierung neu: [Die Beschränkung der Übertragbarkeit der Namenaktien ist aufgehoben.]",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+						"municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "9931",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Amt für Handelsregister und Notariate Kanton SG"
+			},
+			"transaction": {
+				"update": {
+					"changements": {
+						"others": false,
+						"nameChanged": false,
+						"uidChanged": false,
+						"legalStatusChanged": false,
+						"seatChanged": false,
+						"addressChanged": false,
+						"purposeChanged": true,
+						"capitalChanged": {
+							"nominal": false,
+							"paid": false,
+							"other": false
+						},
+						"statusChanged": {
+							"bankruptcy": {
+								"dissolution": false,
+								"dismissal": false,
+								"revocation": false,
+								"cancellation": false,
+								"summary": false
+							},
+							"liquidation": {
+								"dissolution": {
+									"nonExceptional": false,
+									"or731b": false,
+									"hregv153b": false
+								},
+								"revocation": false
+							},
+							"suspension": false,
+							"reentry": false,
+							"reapplication": false
+						}
+					}
+				}
+			},
+			"commonsNew": {
+				"company": {
+					"name": "KVA BidCo AG",
+					"translations": "(KVA BidCo Ltd)",
+					"uid": "CHE-326.382.153",
+					"uidOrganisationId": "326382153",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH32031033709",
+					"seat": "St. Gallen",
+					"legalForm": "0106",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o Konvekta AG",
+						"street": "Letzistrasse",
+						"houseNumber": "23",
+						"swissZipCode": "9015",
+						"town": "St. Gallen"
+					}
+				},
+				"purpose": "Der Zweck der Gesellschaft ist die Verwaltung von eigenem Vermögen, insbesondere das Halten und Verwalten von Investments. Die Gesellschaft kann Zweigniederlassungen und Tochtergesellschaften im In- und Ausland errichten und sich an anderen Unternehmen im In- und Ausland beteiligen sowie alle Geschäfte tätigen, die direkt oder in direkt mit ihrem Zweck in Zusammenhang stehen. Die Gesellschaft kann im In- und Ausland Grundeigentum erwerben, belasten, veräussern und verwalten. Sie kann auch Finanzierungen für eigene oder fremde Rechnung vornehmen sowie Garantien und Bürgschaften für Tochtergesellschaften und Dritte eingehen. Die Gesellschaft kann ihren direkten oder indirekten Aktionären oder anderen Gesellschaften des Konzerns Darlehen und andere direkte oder indirekte Finanzierungen gewähren, einschliesslich im Rahmen von Cash Pooling Vereinbarungen, und für deren Verbindlichkeiten gegenüber Dritten Sicherheiten aller Art bestellen, einschliesslich mittels Verpfändung oder Sicherungsübereignung eigener Aktiven oder Garantien jeglicher Art, auch wenn diese Darlehen oder Sicherheiten im ausschliesslichen Interesse ihrer direkten oder indirekten Aktionäre oder anderen Konzerngesellschaften liegen und unentgeltlich gewährt werden.",
+				"capital": [
+					{
+						"nominal": 100000.0,
+						"paid": 100000.0
+					}
+				],
+				"revision": {
+					"optingOut": false
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "52ec0c41-7961-4be3-80f3-57d07f2c741f",
+			"creationDate": "2026-08-24T10:04:39.077Z",
+			"updateDate": "2026-08-25T22:37:30.189Z",
+			"rubric": "HR",
+			"subRubric": "HR02",
+			"language": "fr",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR02-1006740711",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "La mutation de l'entité juridique mentionnée a été effectuée dans le registre du commerce. <br />Publication selon les art. 9 et 35 ORC.",
+			"cantons": [
+				"GE"
+			],
+			"secondaryTenants": null,
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Mutation VALORINVEST SA, Genève",
+				"en": "Change VALORINVEST SA, Genève",
+				"it": "Cambiamenti VALORINVEST SA, Genève",
+				"fr": "Mutation VALORINVEST SA, Genève"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "VALORINVEST SA",
+					"uid": "CHE-103.146.190",
+					"uidOrganisationId": "103146190",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH66000139215",
+					"seat": "Genève",
+					"legalForm": "0106",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o Moser Vernet & Cie SA",
+						"street": "Chemin Malombré",
+						"houseNumber": "10",
+						"swissZipCode": "1206",
+						"town": "Genève"
+					}
+				},
+				"purpose": "prise de participations ainsi que leur gestion et financement, dans le respect de la LFAIE (cf. statuts pour but complet).",
+				"capital": [
+					{
+						"nominal": 250000.0,
+						"paid": 250000.0
+					}
+				],
+				"revision": {
+					"optingOut": false
+				}
+			},
+			"lastFosc": {
+				"lastFoscDate": "2025-12-24T00:00:00.000Z",
+				"lastFoscNumber": 249,
+				"lastFoscSequence": "1006524973"
+			},
+			"publicationText": "VALORINVEST SA, à Genève, CHE-103.146.190 (FOSC du 24.12.2025, p. 0/1006524973). Augmentation ordinaire du capital-actions porté de CHF 250'000 à CHF 270'000 par l'émission de 20 actions de CHF 1'000, nominatives, liées selon statuts. Capital-actions: CHF 270'000, entièrement libéré, divisé en 270 actions de CHF 1'000, nominatives, liées selon statuts. Radiation des deux clauses d'apport en nature conformément à l'art. 634 al. 4 CO. Communication aux actionnaires: par écrit (courrier simple ou fax) ou par courriel. Nouveaux statuts du 17.08.2026.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+						"municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "20913",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Registre du commerce du Canton de Genève"
+			},
+			"transaction": {
+				"update": {
+					"changements": {
+						"others": false,
+						"nameChanged": false,
+						"uidChanged": false,
+						"legalStatusChanged": false,
+						"seatChanged": false,
+						"addressChanged": false,
+						"purposeChanged": false,
+						"capitalChanged": {
+							"nominal": true,
+							"paid": true,
+							"other": false
+						},
+						"statusChanged": {
+							"bankruptcy": {
+								"dissolution": false,
+								"dismissal": false,
+								"revocation": false,
+								"cancellation": false,
+								"summary": false
+							},
+							"liquidation": {
+								"dissolution": {
+									"nonExceptional": false,
+									"or731b": false,
+									"hregv153b": false
+								},
+								"revocation": false
+							},
+							"suspension": false,
+							"reentry": false,
+							"reapplication": false
+						}
+					}
+				}
+			},
+			"commonsNew": {
+				"company": {
+					"name": "VALORINVEST SA",
+					"uid": "CHE-103.146.190",
+					"uidOrganisationId": "103146190",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH66000139215",
+					"seat": "Genève",
+					"legalForm": "0106",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o Moser Vernet & Cie SA",
+						"street": "Chemin Malombré",
+						"houseNumber": "10",
+						"swissZipCode": "1206",
+						"town": "Genève"
+					}
+				},
+				"purpose": "prise de participations ainsi que leur gestion et financement, dans le respect de la LFAIE (cf. statuts pour but complet).",
+				"capital": [
+					{
+						"nominal": 270000.0,
+						"paid": 270000.0
+					}
+				],
+				"revision": {
+					"optingOut": false
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "e9b5868d-baa5-4e38-b1a2-d247b7e10f81",
+			"creationDate": "2026-08-24T09:57:31.569Z",
+			"updateDate": "2026-08-25T22:37:34.861Z",
+			"rubric": "HR",
+			"subRubric": "HR02",
+			"language": "fr",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR02-1006740595",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "La mutation de l'entité juridique mentionnée a été effectuée dans le registre du commerce. <br />Publication selon les art. 9 et 35 ORC.",
+			"cantons": [
+				"NE"
+			],
+			"secondaryTenants": null,
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Mutation SwissMeo SA, Neuchâtel, neu SwissMeo SA en liquidation",
+				"en": "Change SwissMeo SA, Neuchâtel, new SwissMeo SA en liquidation",
+				"it": "Cambiamenti SwissMeo SA, Neuchâtel, nuovo SwissMeo SA en liquidation",
+				"fr": "Mutation SwissMeo SA, Neuchâtel, nouveau SwissMeo SA en liquidation"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "SwissMeo SA",
+					"translations": "(SwissMeo AG) (SwissMeo Ltd)",
+					"uid": "CHE-389.316.630",
+					"uidOrganisationId": "389316630",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH64541063980",
+					"seat": "Neuchâtel",
+					"legalForm": "0106",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o Brunner et Associés SA",
+						"street": "route des Falaises 7, société fiduciaire",
+						"swissZipCode": "2000",
+						"town": "Neuchâtel"
+					}
+				},
+				"purpose": "développement, production, marketing et vente de montres et autres produits et services de luxe.",
+				"capital": [
+					{
+						"nominal": 112549.0,
+						"paid": 112549.0
+					}
+				],
+				"revision": {
+					"optingOut": false,
+					"revisionCompany": [
+						{
+							"name": "Brunner et Associés SA, société fiduciaire",
+							"country": "CH",
+							"uid": "CHE107962254",
+							"uidOrganisationId": "107962254",
+							"uidOrganisationIdCategorie": "CHE"
+						}
+					]
+				}
+			},
+			"lastFosc": {
+				"lastFoscDate": "2021-07-19T00:00:00.000Z",
+				"lastFoscNumber": 137,
+				"lastFoscSequence": "1005252843"
+			},
+			"publicationText": "SwissMeo SA, à Neuchâtel, CHE-389.316.630 (FOSC du 19.07.2021, p. 0/1005252843). La société est dissoute par suite de faillite prononcée par jugement du Tribunal régional du Littoral et du Val-de-Travers en date du 20.08.2026, à 08h00. Par conséquent, sa raison sociale devient: SwissMeo SA en liquidation  (SwissMeo AG in Liquidation) (SwissMeo Ltd in liquidation).",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+						"municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "3173",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Registre du commerce du Canton de Neuchâtel"
+			},
+			"transaction": {
+				"update": {
+					"changements": {
+						"others": false,
+						"nameChanged": false,
+						"uidChanged": false,
+						"legalStatusChanged": false,
+						"seatChanged": false,
+						"addressChanged": false,
+						"purposeChanged": false,
+						"capitalChanged": {
+							"nominal": false,
+							"paid": false,
+							"other": false
+						},
+						"statusChanged": {
+							"bankruptcy": {
+								"dissolution": true,
+								"dismissal": false,
+								"revocation": false,
+								"cancellation": false,
+								"summary": false
+							},
+							"liquidation": {
+								"dissolution": {
+									"nonExceptional": false,
+									"or731b": false,
+									"hregv153b": false
+								},
+								"revocation": false
+							},
+							"suspension": false,
+							"reentry": false,
+							"reapplication": false
+						}
+					}
+				}
+			},
+			"commonsNew": {
+				"company": {
+					"name": "SwissMeo SA en liquidation",
+					"translations": "(SwissMeo AG in Liquidation) (SwissMeo Ltd in liquidation)",
+					"uid": "CHE-389.316.630",
+					"uidOrganisationId": "389316630",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH64541063980",
+					"seat": "Neuchâtel",
+					"legalForm": "0106",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o Brunner et Associés SA",
+						"street": "route des Falaises 7, société fiduciaire",
+						"swissZipCode": "2000",
+						"town": "Neuchâtel"
+					}
+				},
+				"purpose": "développement, production, marketing et vente de montres et autres produits et services de luxe.",
+				"capital": [
+					{
+						"nominal": 112549.0,
+						"paid": 112549.0
+					}
+				],
+				"revision": {
+					"optingOut": false,
+					"revisionCompany": [
+						{
+							"name": "Brunner et Associés SA, société fiduciaire",
+							"country": "CH",
+							"uid": "CHE107962254",
+							"uidOrganisationId": "107962254",
+							"uidOrganisationIdCategorie": "CHE"
+						}
+					]
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "637a3b08-eb37-441d-ba7c-63a951b4aaec",
+			"creationDate": "2026-08-24T09:52:39.686Z",
+			"updateDate": "2026-08-25T22:37:36.441Z",
+			"rubric": "HR",
+			"subRubric": "HR02",
+			"language": "fr",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR02-1006740579",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "La mutation de l'entité juridique mentionnée a été effectuée dans le registre du commerce. <br />Publication selon les art. 9 et 35 ORC.",
+			"cantons": [
+				"VS"
+			],
+			"secondaryTenants": [
+				{
+					"tenantCode": "kabvs",
+					"publicationDate": "2026-08-26T00:00:00.000Z"
+				}
+			],
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Mutation Jerjen-Metal Sàrl, Sierre, neu Jerjen-Metal Sàrl en liquidation",
+				"en": "Change Jerjen-Metal Sàrl, Sierre, new Jerjen-Metal Sàrl en liquidation",
+				"it": "Cambiamenti Jerjen-Metal Sàrl, Sierre, nuovo Jerjen-Metal Sàrl en liquidation",
+				"fr": "Mutation Jerjen-Metal Sàrl, Sierre, nouveau Jerjen-Metal Sàrl en liquidation"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "Jerjen-Metal Sàrl",
+					"uid": "CHE-212.769.485",
+					"uidOrganisationId": "212769485",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH62640216807",
+					"seat": "Sierre",
+					"legalForm": "0107",
+					"noAddress": false,
+					"address": {
+						"street": "Route du Moulin",
+						"houseNumber": "57",
+						"swissZipCode": "3977",
+						"town": "Granges VS"
+					}
+				},
+				"purpose": "La société exploite une entreprise de construction, de construction métallique, une agence immobilière et fait de l'import-export. La société peut effectuer, soit pour son compte, soit pour le compte de tiers, toutes opérations commerciales ou financières se rattachant directement ou indirectement, en tout ou partie, à son but ou qui serait de nature à en faciliter la réalisation. En lien direct ou indirect avec son but, la société peut notamment acquérir des immeubles. La société peut établir oies succursales et créer des filiales en Suisse ou à l'étranger. La société peut accorder des prêts ou des garanties à des associés ou des tiers.",
+				"capital": [
+					{
+						"nominal": 20000.0
+					}
+				],
+				"revision": {
+					"optingOut": false
+				}
+			},
+			"lastFosc": {
+				"lastFoscDate": "2025-09-16T00:00:00.000Z",
+				"lastFoscNumber": 178,
+				"lastFoscSequence": "1006434704"
+			},
+			"publicationText": "Jerjen-Metal Sàrl, à Sierre, CHE-212.769.485, société à responsabilité limitée (No. FOSC 178 du 16.09.2025, Publ. 1006434704). Nouvelle raison sociale: Jerjen-Metal Sàrl en liquidation. Par décision du 20.08.2026 prononcée par le Tribunal de Sierre, cette société a été déclarée en faillite avec effet le 20.08.2026 à 8h15 et dissoute d'office.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+						"municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "3696",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Registre du commerce du Valais Central"
+			},
+			"transaction": {
+				"update": {
+					"changements": {
+						"others": false,
+						"nameChanged": false,
+						"uidChanged": false,
+						"legalStatusChanged": false,
+						"seatChanged": false,
+						"addressChanged": false,
+						"purposeChanged": false,
+						"capitalChanged": {
+							"nominal": false,
+							"paid": false,
+							"other": false
+						},
+						"statusChanged": {
+							"bankruptcy": {
+								"dissolution": true,
+								"dismissal": false,
+								"revocation": false,
+								"cancellation": false,
+								"summary": false
+							},
+							"liquidation": {
+								"dissolution": {
+									"nonExceptional": false,
+									"or731b": false,
+									"hregv153b": false
+								},
+								"revocation": false
+							},
+							"suspension": false,
+							"reentry": false,
+							"reapplication": false
+						}
+					}
+				}
+			},
+			"commonsNew": {
+				"company": {
+					"name": "Jerjen-Metal Sàrl en liquidation",
+					"uid": "CHE-212.769.485",
+					"uidOrganisationId": "212769485",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH62640216807",
+					"seat": "Sierre",
+					"legalForm": "0107",
+					"noAddress": false,
+					"address": {
+						"street": "Route du Moulin",
+						"houseNumber": "57",
+						"swissZipCode": "3977",
+						"town": "Granges VS"
+					}
+				},
+				"purpose": "La société exploite une entreprise de construction, de construction métallique, une agence immobilière et fait de l'import-export. La société peut effectuer, soit pour son compte, soit pour le compte de tiers, toutes opérations commerciales ou financières se rattachant directement ou indirectement, en tout ou partie, à son but ou qui serait de nature à en faciliter la réalisation. En lien direct ou indirect avec son but, la société peut notamment acquérir des immeubles. La société peut établir oies succursales et créer des filiales en Suisse ou à l'étranger. La société peut accorder des prêts ou des garanties à des associés ou des tiers.",
+				"capital": [
+					{
+						"nominal": 20000.0
+					}
+				],
+				"revision": {
+					"optingOut": false
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "030d2c85-4b83-45f5-96b1-97d6e4d8b1bf",
+			"creationDate": "2026-08-24T10:30:24.059Z",
+			"updateDate": "2026-08-25T22:37:51.209Z",
+			"rubric": "HR",
+			"subRubric": "HR02",
+			"language": "de",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR02-1006740292",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "Die Mutation der aufgeführten Rechtseinheit wurde im Handelsregister vorgenommen. <br />Publikation nach HRegV Art. 9 und Art. 35.",
+			"cantons": [
+				"AG"
+			],
+			"secondaryTenants": null,
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Mutation Venusstiftung, Murgenthal",
+				"en": "Change Venusstiftung, Murgenthal",
+				"it": "Cambiamenti Venusstiftung, Murgenthal",
+				"fr": "Mutation Venusstiftung, Murgenthal"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "Venusstiftung",
+					"uid": "CHE-114.759.617",
+					"uidOrganisationId": "114759617",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH40070314686",
+					"seat": "Murgenthal",
+					"legalForm": "0110",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o Ruth Britschgi - Treuhand und Consulting",
+						"street": "Weissensteinstrasse",
+						"houseNumber": "4",
+						"swissZipCode": "4853",
+						"town": "Riken AG"
+					}
+				},
+				"purpose": "Absicht des Stifters ist es, durch die Venusstiftung eine Plattform zu schaffen, durch die Seminare und Vorträge abgehalten und u.a. Bücher geschrieben und veröffentlicht werden können. Der Inhalt der Seminare und Vorträge, sowie der von der Stiftung geförderten Bücher umfasst folgende Bereiche und hat folgende Hintergründe: \"Venus\" ist das Sinnbild für die Liebe, für Schönheit und für Harmonie. Wir leben in einer Zeit, in der es genau an diesen Elementen mangelt. Die grosse Sehnsucht des Menschen ist die Sehnsucht nach Liebe und die Sehnsucht nach innerem Frieden, nach innerer Harmonie. Nur dann nämlich, wenn der Mensch in sich zur Ruhe kommen und in sich den Frieden finden kann, nur dann wird ein nachhaltiger Weltfriede möglich sein. Die Seminare und Vorträge, die von der Stiftung gefördert und abgehalten werden, beinhalten Methoden, wie z.B. Meditationen und andere Übungen, die zur inneren Harmonie des Menschen beitragen. Sie beinhalten vor allem auch Methoden, die den Menschen zeigen, wie sie zu ihrem eigenen Herzen, zu ihrer eigenen Liebesfähigkeit finden können, um dann die Liebe auch ausstrahlen zu können. Die Bücher und andere Produkte, die von der Stiftung gefördert werden, beinhalten genau dieselben Themen. Die Stiftung bezweckt \"die Heilung der Liebe\". Es geht dabei um die Heilung emotionaler Verletzungen sowie um die Entwicklung der Liebesfähigkeit des einzelnen Menschen. Das wird vom Stifter als Voraussetzung für den inneren Frieden gesehen. Und das wiederum ist die Voraussetzung für einen nachhaltigen Weltfrieden. ein wesentlicher Aspekt des Weltfriedens ist auch der bewusste und liebevolle Umgang des Menschen mit der Natur, mit seiner Umwelt. £Es geht natürlich um ein umweltbewusstes Handeln auf allen Ebenen. Es geht aber auch darum, dass der Mensch beginnt, mit der \"Mutter Erde\" in eine liebevolle und vor allem harmonische Beziehung zu treten. Nur dann, wenn das gelingt, sind wir den Herausforderungen, die sich aus den Umweltbelastungen durch den Menschen und aus dem laufenden Klimawandel ergeben, auch gewachsen. Die Venusstiftung bezweckt zum einen die \"Heilung der Liebe\" durch Wege zu innerer Harmonie, zur eigenen Liebesfähigkeit und zu innerem Frieden, als Voraussetzung für einen nachhaltigen Weltfrieden. Die Venusstiftung bezweckt zum anderen, ein neues, liebevolles Umweltbewusstsein zu schaffen, das durch eine neue Beziehung des Menschen zur Mutter Erde stattfinden soll. Zu diesem Zweck übernimmt die Stiftung die Kosten für die Seminare, Vorträge und Workshops, die in diesem Zusammenhang stattfinden. dies beinhaltet sowohl die nötigen Werbekosten, sowie die Kosten für die Durchführung selbst. Die Stiftung übernimmt auch die Kosten für das Schreiben und Veröffentlichen der Bücher und anderer Schriften bzw. Produkte, die dem Stiftungszweck dienen. Das beinhaltet auch die finanzielle Unterstützung von Autoren und Künstlern. Ausserdem übernimmt die Stiftung die Kosten für den Lebensunterhalt jener Menschen, die sich dieser Aufgabe gänzlich widmen. Welche Werke gefördert und welche Menschen unterstützt werden sollen bestimmt der Stifter bzw. der Stiftungsrat. Die Stiftung kann auch dazu beitragen, Menschen zu unterstützen, die Hilfe nötig haben. Es sollen dabei keine allgemeinen Hilfsorganisationen unterstützt werden, sondern konkret einzelne Menschen, die nach Meinung der Stiftung unterstützungswürdig sind. Es soll sich dabei um eine zeitweise finanzielle Unterstützung, aber vor allem auch um eine emotionale Betreuung handeln.",
+				"revision": {
+					"optingOut": false
+				}
+			},
+			"lastFosc": {
+				"lastFoscDate": "2024-10-18T00:00:00.000Z",
+				"lastFoscNumber": 203,
+				"lastFoscSequence": "1006157880"
+			},
+			"publicationText": "Venusstiftung, in Murgenthal, CHE-114.759.617, Stiftung (SHAB Nr. 203 vom 18.10.2024, Publ. 1006157880). Ausgeschiedene Personen und erloschene Unterschriften: Argus Revisionen GmbH (CHE-321.148.727), in Dietlikon, Revisionsstelle. Eingetragene Personen neu oder mutierend: Wehrli Treuhand AG (CHE-480.307.051), in Winterthur, Revisionsstelle.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+						"municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "11919",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Handelsregisteramt des Kantons Aargau"
+			},
+			"transaction": {
+				"update": {
+					"changements": {
+						"others": true,
+						"nameChanged": false,
+						"uidChanged": false,
+						"legalStatusChanged": false,
+						"seatChanged": false,
+						"addressChanged": false,
+						"purposeChanged": false,
+						"capitalChanged": {
+							"nominal": false,
+							"paid": false,
+							"other": false
+						},
+						"statusChanged": {
+							"bankruptcy": {
+								"dissolution": false,
+								"dismissal": false,
+								"revocation": false,
+								"cancellation": false,
+								"summary": false
+							},
+							"liquidation": {
+								"dissolution": {
+									"nonExceptional": false,
+									"or731b": false,
+									"hregv153b": false
+								},
+								"revocation": false
+							},
+							"suspension": false,
+							"reentry": false,
+							"reapplication": false
+						}
+					}
+				}
+			},
+			"commonsNew": {
+				"company": {
+					"name": "Venusstiftung",
+					"uid": "CHE-114.759.617",
+					"uidOrganisationId": "114759617",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH40070314686",
+					"seat": "Murgenthal",
+					"legalForm": "0110",
+					"noAddress": false,
+					"address": {
+						"addressLine1": "c/o Ruth Britschgi - Treuhand und Consulting",
+						"street": "Weissensteinstrasse",
+						"houseNumber": "4",
+						"swissZipCode": "4853",
+						"town": "Riken AG"
+					}
+				},
+				"purpose": "Absicht des Stifters ist es, durch die Venusstiftung eine Plattform zu schaffen, durch die Seminare und Vorträge abgehalten und u.a. Bücher geschrieben und veröffentlicht werden können. Der Inhalt der Seminare und Vorträge, sowie der von der Stiftung geförderten Bücher umfasst folgende Bereiche und hat folgende Hintergründe: \"Venus\" ist das Sinnbild für die Liebe, für Schönheit und für Harmonie. Wir leben in einer Zeit, in der es genau an diesen Elementen mangelt. Die grosse Sehnsucht des Menschen ist die Sehnsucht nach Liebe und die Sehnsucht nach innerem Frieden, nach innerer Harmonie. Nur dann nämlich, wenn der Mensch in sich zur Ruhe kommen und in sich den Frieden finden kann, nur dann wird ein nachhaltiger Weltfriede möglich sein. Die Seminare und Vorträge, die von der Stiftung gefördert und abgehalten werden, beinhalten Methoden, wie z.B. Meditationen und andere Übungen, die zur inneren Harmonie des Menschen beitragen. Sie beinhalten vor allem auch Methoden, die den Menschen zeigen, wie sie zu ihrem eigenen Herzen, zu ihrer eigenen Liebesfähigkeit finden können, um dann die Liebe auch ausstrahlen zu können. Die Bücher und andere Produkte, die von der Stiftung gefördert werden, beinhalten genau dieselben Themen. Die Stiftung bezweckt \"die Heilung der Liebe\". Es geht dabei um die Heilung emotionaler Verletzungen sowie um die Entwicklung der Liebesfähigkeit des einzelnen Menschen. Das wird vom Stifter als Voraussetzung für den inneren Frieden gesehen. Und das wiederum ist die Voraussetzung für einen nachhaltigen Weltfrieden. ein wesentlicher Aspekt des Weltfriedens ist auch der bewusste und liebevolle Umgang des Menschen mit der Natur, mit seiner Umwelt. £Es geht natürlich um ein umweltbewusstes Handeln auf allen Ebenen. Es geht aber auch darum, dass der Mensch beginnt, mit der \"Mutter Erde\" in eine liebevolle und vor allem harmonische Beziehung zu treten. Nur dann, wenn das gelingt, sind wir den Herausforderungen, die sich aus den Umweltbelastungen durch den Menschen und aus dem laufenden Klimawandel ergeben, auch gewachsen. Die Venusstiftung bezweckt zum einen die \"Heilung der Liebe\" durch Wege zu innerer Harmonie, zur eigenen Liebesfähigkeit und zu innerem Frieden, als Voraussetzung für einen nachhaltigen Weltfrieden. Die Venusstiftung bezweckt zum anderen, ein neues, liebevolles Umweltbewusstsein zu schaffen, das durch eine neue Beziehung des Menschen zur Mutter Erde stattfinden soll. Zu diesem Zweck übernimmt die Stiftung die Kosten für die Seminare, Vorträge und Workshops, die in diesem Zusammenhang stattfinden. dies beinhaltet sowohl die nötigen Werbekosten, sowie die Kosten für die Durchführung selbst. Die Stiftung übernimmt auch die Kosten für das Schreiben und Veröffentlichen der Bücher und anderer Schriften bzw. Produkte, die dem Stiftungszweck dienen. Das beinhaltet auch die finanzielle Unterstützung von Autoren und Künstlern. Ausserdem übernimmt die Stiftung die Kosten für den Lebensunterhalt jener Menschen, die sich dieser Aufgabe gänzlich widmen. Welche Werke gefördert und welche Menschen unterstützt werden sollen bestimmt der Stifter bzw. der Stiftungsrat. Die Stiftung kann auch dazu beitragen, Menschen zu unterstützen, die Hilfe nötig haben. Es sollen dabei keine allgemeinen Hilfsorganisationen unterstützt werden, sondern konkret einzelne Menschen, die nach Meinung der Stiftung unterstützungswürdig sind. Es soll sich dabei um eine zeitweise finanzielle Unterstützung, aber vor allem auch um eine emotionale Betreuung handeln.",
+				"revision": {
+					"optingOut": false,
+					"revisionCompany": [
+						{
+							"name": "Wehrli Treuhand AG",
+							"country": "CH",
+							"uid": "CHE480307051",
+							"uidOrganisationId": "480307051",
+							"uidOrganisationIdCategorie": "CHE"
+						}
+					]
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "6b958942-41d9-4c67-b63e-96c2e893fd3a",
+			"creationDate": "2026-08-24T10:07:01.728Z",
+			"updateDate": "2026-08-25T22:37:33.549Z",
+			"rubric": "HR",
+			"subRubric": "HR02",
+			"language": "fr",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR02-1006740549",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "La mutation de l'entité juridique mentionnée a été effectuée dans le registre du commerce. <br />Publication selon les art. 9 et 35 ORC.",
+			"cantons": [
+				"VS"
+			],
+			"secondaryTenants": [
+				{
+					"tenantCode": "kabvs",
+					"publicationDate": "2026-08-26T00:00:00.000Z"
+				}
+			],
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Mutation A&J Voie Ferrée SA, Monthey",
+				"en": "Change A&J Voie Ferrée SA, Monthey",
+				"it": "Cambiamenti A&J Voie Ferrée SA, Monthey",
+				"fr": "Mutation A&J Voie Ferrée SA, Monthey"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"commonsActual": {
+				"company": {
+					"name": "A&J Voie Ferrée SA",
+					"translations": "(A&J Voie Ferrée AG) (A&J Voie Ferrée Ltd)",
+					"uid": "CHE-335.406.692",
+					"uidOrganisationId": "335406692",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH62130105105",
+					"seat": "Monthey",
+					"legalForm": "0106",
+					"noAddress": false,
+					"address": {
+						"street": "Avenue de l'Industrie",
+						"houseNumber": "29",
+						"swissZipCode": "1870",
+						"town": "Monthey"
+					}
+				},
+				"purpose": "La société a pour but: toutes prestations de conseils et de services en matière de location de personnel dans le domaine de la sécurité ferroviaire; toutes prestations de location de machines de chantier. Elle pourra en outre faire, soit pour son compte, soit pour le compte de tiers, toutes opérations financières, commerciales, mobilières ou immobilières se rattachant directement ou indirectement à son but social et s'intéresser, sous toutes formes, à toutes entreprises similaires, notamment par la prise de participation dans des entreprises similaires. La société pourra également constituer des succursales et des filiales en Suisse et à l'étranger.",
+				"capital": [
+					{
+						"nominal": 100000.0,
+						"paid": 100000.0
+					}
+				],
+				"revision": {
+					"optingOut": false
+				}
+			},
+			"lastFosc": {
+				"lastFoscDate": "2024-12-12T00:00:00.000Z",
+				"lastFoscNumber": 242,
+				"lastFoscSequence": "1006203470"
+			},
+			"publicationText": "A&J Voie Ferrée SA, à Monthey, CHE-335.406.692, société anonyme (No. FOSC 242 du 12.12.2024, Publ. 1006203470). Personne(s) et signature(s) radiée(s): Muiños Fernandez, Adrian, citoyen espagnol, à Monthey, administrateur unique, avec signature individuelle. Inscription ou modification de personne(s): Dos Santos Ferreira, António Manuel, citoyen portugais, à Montreux, administrateur unique, avec signature individuelle.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+						"en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+						"municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "3259",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Registre du commerce du Bas-Valais"
+			},
+			"transaction": {
+				"update": {
+					"changements": {
+						"others": true,
+						"nameChanged": false,
+						"uidChanged": false,
+						"legalStatusChanged": false,
+						"seatChanged": false,
+						"addressChanged": false,
+						"purposeChanged": false,
+						"capitalChanged": {
+							"nominal": false,
+							"paid": false,
+							"other": false
+						},
+						"statusChanged": {
+							"bankruptcy": {
+								"dissolution": false,
+								"dismissal": false,
+								"revocation": false,
+								"cancellation": false,
+								"summary": false
+							},
+							"liquidation": {
+								"dissolution": {
+									"nonExceptional": false,
+									"or731b": false,
+									"hregv153b": false
+								},
+								"revocation": false
+							},
+							"suspension": false,
+							"reentry": false,
+							"reapplication": false
+						}
+					}
+				}
+			},
+			"commonsNew": {
+				"company": {
+					"name": "A&J Voie Ferrée SA",
+					"translations": "(A&J Voie Ferrée AG) (A&J Voie Ferrée Ltd)",
+					"uid": "CHE-335.406.692",
+					"uidOrganisationId": "335406692",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH62130105105",
+					"seat": "Monthey",
+					"legalForm": "0106",
+					"noAddress": false,
+					"address": {
+						"street": "Avenue de l'Industrie",
+						"houseNumber": "29",
+						"swissZipCode": "1870",
+						"town": "Monthey"
+					}
+				},
+				"purpose": "La société a pour but: toutes prestations de conseils et de services en matière de location de personnel dans le domaine de la sécurité ferroviaire; toutes prestations de location de machines de chantier. Elle pourra en outre faire, soit pour son compte, soit pour le compte de tiers, toutes opérations financières, commerciales, mobilières ou immobilières se rattachant directement ou indirectement à son but social et s'intéresser, sous toutes formes, à toutes entreprises similaires, notamment par la prise de participation dans des entreprises similaires. La société pourra également constituer des succursales et des filiales en Suisse et à l'étranger.",
+				"capital": [
+					{
+						"nominal": 100000.0,
+						"paid": 100000.0
+					}
+				],
+				"revision": {
+					"optingOut": false
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "f225e0f2-9ef1-4d26-974d-a2c093dca0b6",
+			"creationDate": "2026-08-24T10:23:16.328Z",
+			"updateDate": "2026-08-25T22:38:28.753Z",
+			"rubric": "HR",
+			"subRubric": "HR01",
+			"language": "de",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR01-1006740171",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "Die aufgeführte Rechtseinheit wurde ins Handelsregister aufgenommen und ist rechtsfähig. <br />Publikation nach HRegV Art. 9 und Art. 35.",
+			"cantons": [
+				"BL"
+			],
+			"secondaryTenants": null,
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Neueintragung Chemspeed, Zweigniederlassung der Bruker Switzerland AG, Füllinsdorf",
+				"en": "New entries Chemspeed, Zweigniederlassung der Bruker Switzerland AG, Füllinsdorf",
+				"it": "Nuove registrazioni Chemspeed, Zweigniederlassung der Bruker Switzerland AG, Füllinsdorf",
+				"fr": "Nouvelles entrées Chemspeed, Zweigniederlassung der Bruker Switzerland AG, Füllinsdorf"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"publicationText": "Chemspeed, Zweigniederlassung der Bruker Switzerland AG (Chemspeed, branch of Bruker Switzerland AG), in Füllinsdorf, CHE-210.611.608, Wölferstrasse 8, 4414 Füllinsdorf, schweizerische Zweigniederlassung (Neueintragung). Identifikationsnummer Hauptsitz: CHE-101.138.357. Firma Hauptsitz: Bruker Switzerland AG. Rechtsform Hauptsitz: Aktiengesellschaft. Hauptsitz: Fällanden. Eingetragene Personen: Bartsch, Jens, deutscher Staatsangehöriger, in Malsch (DE), mit Kollektivunterschrift zu zweien; De Albuquerque, Marco Aurelio, portugiesischer Staatsangehöriger, in Basel, mit Kollektivunterschrift zu zweien; Marcos, Carine, französische Staatsangehörige, in Bartenheim (FR), mit Kollektivunterschrift zu zweien; Schneider, Michael, von Ramsen, in Frick, mit Kollektivunterschrift zu zweien.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Neueintragung {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"fr": "Nouvelles entrées {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"it": "Nuove registrazioni {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"en": "New entries {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsNew.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "5071",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Handelsregisteramt des Kantons Basel-Landschaft"
+			},
+			"transaction": {
+				"registration": true
+			},
+			"commonsNew": {
+				"company": {
+					"name": "Chemspeed, Zweigniederlassung der Bruker Switzerland AG",
+					"translations": "(Chemspeed, branch of Bruker Switzerland AG)",
+					"uid": "CHE-210.611.608",
+					"uidOrganisationId": "210611608",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH28090330386",
+					"seat": "Füllinsdorf",
+					"legalForm": "0151",
+					"noAddress": false,
+					"address": {
+						"street": "Wölferstrasse",
+						"houseNumber": "8",
+						"swissZipCode": "4414",
+						"town": "Füllinsdorf"
+					}
+				},
+				"revision": {
+					"optingOut": false
+				},
+				"headOffice": {
+					"name": "Bruker Switzerland AG",
+					"country": "CH",
+					"uid": "CHE-101.138.357",
+					"uidOrganisationId": "101138357",
+					"uidOrganisationIdCategorie": "CHE"
+				}
+			}
+		},
+		"commented": false
+	},
+	{
+		"meta": {
+			"id": "9655c29b-4514-47b1-8c9a-e786f916cdc5",
+			"creationDate": "2026-08-24T09:58:06.761Z",
+			"updateDate": "2026-08-25T22:38:33.678Z",
+			"rubric": "HR",
+			"subRubric": "HR01",
+			"language": "it",
+			"registrationOffice": {
+				"id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+				"displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+				"street": "Bundesrain",
+				"streetNumber": "20",
+				"swissZipCode": "3003",
+				"town": "Bern",
+				"containsPostOfficeBox": false,
+				"postOfficeBox": null,
+				"municipalityId": null,
+				"uid": null
+			},
+			"publicationOriginator": null,
+			"publicationNumber": "HR01-1006740383",
+			"publicationState": "PUBLISHED",
+			"publicationDate": "2026-08-26T00:00:00.000Z",
+			"expirationDate": null,
+			"primaryTenantCode": "shab",
+			"onBehalfOf": null,
+			"invoiceAddressId": null,
+			"legalRemedy": "L'ente giuridico indicato è stato inserito nel registro di commercio ed è giuridicamente capace. <br />Pubblicazione secondo gli articoli 9 e 35 ORC.",
+			"cantons": [
+				"TI"
+			],
+			"secondaryTenants": [
+				{
+					"tenantCode": "kabti",
+					"publicationDate": "2026-08-26T00:00:00.000Z"
+				}
+			],
+			"repeatedPublications": null,
+			"customsStampImages": [],
+			"title": {
+				"de": "Neueintragung UI legnamé Mantovani Sagl, Lumino",
+				"en": "New entries UI legnamé Mantovani Sagl, Lumino",
+				"it": "Nuove registrazioni UI legnamé Mantovani Sagl, Lumino",
+				"fr": "Nouvelles entrées UI legnamé Mantovani Sagl, Lumino"
+			},
+			"dossierReference": null,
+			"copyDeadline": null
+		},
+		"links": [],
+		"attachments": [],
+		"content": {
+			"testImport": false,
+			"publicationText": "UI legnamé Mantovani Sagl, in Lumino, CHE-333.736.078, Via Quatorta 5, 6533 Lumino, succursale svizzera (Nuova iscrizione). Numero di identificazione della sede principale: CHE-112.785.035. Ditta della sede principale: UI legnamé Mantovani Sagl. Natura giuridica della sede principale: Società a garanzia limitata. Sede principale: Soazza.",
+			"root": {
+				"patterns": {
+					"title": {
+						"de": "Neueintragung {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"fr": "Nouvelles entrées {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"it": "Nuove registrazioni {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+						"en": "New entries {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}"
+					},
+					"uid": {
+						"uid1": "{root.content.commonsNew.company.uidOrganisationId}"
+					},
+					"municipalities": {
+						"municipality1": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+					}
+				}
+			},
+			"journalNumber": "11934",
+			"journalDate": "2026-08-21T00:00:00.000Z",
+			"senderOffice": {
+				"officeName": "Registro di commercio del Cantone Ticino"
+			},
+			"transaction": {
+				"registration": true
+			},
+			"commonsNew": {
+				"company": {
+					"name": "UI legnamé Mantovani Sagl",
+					"uid": "CHE-333.736.078",
+					"uidOrganisationId": "333736078",
+					"uidOrganisationIdCategorie": "CHE",
+					"code13": "CH50190165195",
+					"seat": "Lumino",
+					"legalForm": "0151",
+					"noAddress": false,
+					"address": {
+						"street": "Via Quatorta",
+						"houseNumber": "5",
+						"swissZipCode": "6533",
+						"town": "Lumino"
+					}
+				},
+				"revision": {
+					"optingOut": false
+				},
+				"headOffice": {
+					"name": "UI legnamé Mantovani Sagl",
+					"country": "CH",
+					"uid": "CHE-112.785.035",
+					"uidOrganisationId": "112785035",
+					"uidOrganisationIdCategorie": "CHE"
+				}
+			}
+		},
+		"commented": false
+	}
+]
