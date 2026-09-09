@@ -1,8 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
   <title>SHAB</title>
   <rect x="2" y="2" width="44" height="44" rx="6" fill="#d8232a"/>
-  <rect x="11" y="8" width="26" height="32" rx="2.5" fill="#ffffff"/>
-  <path d="M21.5 12h5v4.5H31v5h-4.5V26h-5v-4.5H17v-5h4.5z" fill="#d8232a"/>
-  <rect x="16" y="30" width="16" height="2.4" rx="1.2" fill="#d8232a" opacity="0.75"/>
-  <rect x="16" y="34.6" width="11" height="2.4" rx="1.2" fill="#d8232a" opacity="0.75"/>
+  <rect x="10" y="8" width="28" height="32" rx="2.5" fill="#ffffff"/>
+  <rect x="14" y="12" width="20" height="4.5" rx="1.25" fill="#d8232a"/>
+  <rect x="14" y="20.5" width="20" height="2.4" rx="1.2" fill="#d8232a" opacity="0.7"/>
+  <rect x="14" y="25.1" width="20" height="2.4" rx="1.2" fill="#d8232a" opacity="0.7"/>
+  <rect x="14" y="29.7" width="20" height="2.4" rx="1.2" fill="#d8232a" opacity="0.7"/>
+  <rect x="14" y="34.3" width="12" height="2.4" rx="1.2" fill="#d8232a" opacity="0.7"/>
 </svg>
